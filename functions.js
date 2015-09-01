@@ -23,8 +23,8 @@
 
  function increase(n){
 
-  var newNumber = n++;
-  return newNumber;
+  n++;
+  return n;
 
  }
 
@@ -37,6 +37,14 @@
  * @return {number}
  */
 
+function decrease(n){
+
+  n--;
+  return n;
+
+}
+
+decrease(42);
 
 /**
  * Adds two numbers.
