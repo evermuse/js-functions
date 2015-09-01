@@ -176,6 +176,22 @@ calculate('add', 40, 2);
  * @return {boolean} `a` is larger than `b`
  */
 
+function isGreaterThan(a, b){
+
+  if (a > b){
+
+    return true;
+
+  } else {
+
+    return false;
+
+  }
+
+}
+
+isGreaterThan(10,2);
+
 
 /**
  * Returns true if `a` is less than `b`.
@@ -184,6 +200,21 @@ calculate('add', 40, 2);
  * @return {boolean} `a` is smaller than `b`
  */
 
+function isLessThan(a, b){
+
+   if (a < b){
+
+    return true;
+
+  } else {
+
+    return false;
+
+  }
+
+}
+
+isLessThan(2,10);
 
 /**
  * Returns true if `a` and `b` are equal.
@@ -191,6 +222,8 @@ calculate('add', 40, 2);
  * @param {number} b
  * @return {boolean} the numbers are equal
  */
+
+
 
 
 /**
