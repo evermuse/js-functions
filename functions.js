@@ -4,12 +4,31 @@
  * @return {string} the number as a string
  */
 
+ function numberToString(n){
+
+  var newString = n.toString();
+
+  return newString;
+
+ }
+
+ NumbertoString(42);
+
 
 /**
  * Adds one to a given number.
  * @param {number} n
  * @return {number}
  */
+
+ function increase(n){
+
+  var newNumber = n++;
+  return newNumber;
+
+ }
+
+ increase(42);
 
 
 /**
