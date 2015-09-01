@@ -223,8 +223,21 @@ isLessThan(2,10);
  * @return {boolean} the numbers are equal
  */
 
+function areEqual(x, y){
 
+  if (x === y) {
 
+    return true;
+
+  } else {
+
+    return false;
+
+  }
+
+}
+
+areEqual(42, 42);
 
 /**
  * Returns the smallest value of two numbers.
@@ -233,6 +246,14 @@ isLessThan(2,10);
  * @return {number} the smallest number
  */
 
+function minimum(x, y){
+
+  var smallest = Math.min(x, y);
+  return smallest;
+
+}
+
+minimum(10,2);
 
 /**
  * Returns the largest value of two numbers.
@@ -241,12 +262,37 @@ isLessThan(2,10);
  * @return {number} the largest number
  */
 
+function maximum(x, y){
+
+  var largest = Math.max(x, y);
+  return largest;
+
+}
+
+maximum(10,2);
+
 
 /**
  * Returns true if `n` is even.
  * @param {number} n
  * @return {boolean} the number is even
  */
+
+function isEven(n){
+
+  if (n % 2 === 0){
+
+    return true;
+
+  } else {
+
+    return false;
+
+  }
+
+}
+
+isEven(42);
 
 
 /**
