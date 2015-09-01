@@ -301,6 +301,21 @@ isEven(42);
  * @return {boolean} the number is odd
  */
 
+function isOdd(n){
+
+  if (n % 2 !== 0){
+
+    return true;
+
+  } else {
+
+    return false;
+
+  }
+
+}
+
+isOdd(101);
 
 /**
  * Returns a letter grade.
@@ -314,6 +329,37 @@ isEven(42);
  * @return {string} the score represented as a letter grade
  */
 
+function letterGrade(score, total){
+
+var grade;
+
+  if ((score / total) * 100 >= 90){
+
+    grade = 'A';
+
+  } else if ((score / total) * 100 >= 80){
+
+    grade = 'B';
+
+  } else if ((score / total) * 100 >= 70){
+
+    grade = 'C';
+
+  } else if ((score / total) * 100 >= 60){
+
+    grade = 'D';
+
+  } else {
+
+    grade = 'F';
+
+  }
+
+  return grade;
+
+}
+
+letterGrade(9,10);
 
 /**
  * Checks if a `restaurant` object has a `reviews` property.
