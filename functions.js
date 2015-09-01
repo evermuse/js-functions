@@ -85,6 +85,14 @@ subtract(44,2);
  * @return {number} the product
  */
 
+function multiply(x,y){
+
+  var product = x * y;
+  return product;
+
+}
+
+multiply(11,4);
 
 /**
  * Divides the first number by the second.
@@ -93,6 +101,14 @@ subtract(44,2);
  * @return {number} the quotient
  */
 
+function divide(x,y){
+
+  var quotient = x / y;
+  return quotient;
+
+}
+
+divide(88,2);
 
 /**
  * Multiplies a number by itself.
