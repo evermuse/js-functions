@@ -12,7 +12,7 @@
 
  }
 
- NumbertoString(42);
+ numberToString(42);
 
 
 /**
@@ -361,6 +361,7 @@ var grade;
 
 letterGrade(9,10);
 
+
 /**
  * Checks if a `restaurant` object has a `reviews` property.
  * If it does, increase the property's `reviews` value by 1.
@@ -370,12 +371,38 @@ letterGrade(9,10);
  */
 
 
+ function incrementReviews(restaurant){
+
+  if (restaurant.reviews){
+
+    restaurant.reviews++;
+
+  } else {
+
+    restaurant.reviews = 1;
+
+  }
+
+return restaurant;
+
+ }
+
+
 /**
  * Joins two strings with a space.
  * @param {string} word1
  * @param {string} word2
  * @return {string} joined the words joined with a space
  */
+
+function combine(word1, word2){
+
+  var newString = word1 + ' ' + word2;
+  return newString;
+
+}
+
+combine('hello', 'world');
 
 
 /**
@@ -386,3 +413,14 @@ letterGrade(9,10);
  * @return {object} circle
  */
 
+function createCircle(radius){
+
+  var circle = {};
+  circle.circumference = Math.PI * (2 * radius);
+  circle.area = Math.PI * (radius * radius);
+
+return circle;
+
+}
+
+createCircle(5);
