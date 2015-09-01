@@ -53,6 +53,14 @@ decrease(42);
  * @return {number} the sum
  */
 
+function add(x,y){
+
+  sum = x + y;
+  return sum;
+
+}
+
+add(40,2);
 
 /**
  * Subtracts the second number from the first.
