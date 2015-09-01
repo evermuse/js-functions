@@ -116,6 +116,14 @@ divide(88,2);
  * @return {number} squared
  */
 
+function square(x){
+
+  x *= x;
+  return x;
+
+}
+
+square(7);
 
 /**
  * Performs a mathematical operation on two numbers.
@@ -125,6 +133,40 @@ divide(88,2);
  * @param {number} y
  * @return {number} the result
  */
+
+ function calculate(operation, x, y){
+
+  var result;
+
+  if (operation == 'add') {
+
+    result = x + y;
+    console.log(x + ' + ' + y + ' = ' + result);
+    return result;
+
+  } else if (operation == 'subtract') {
+
+    result = x - y;
+    console.log(x + ' - ' + y + ' = ' + result);
+    return result;
+
+  } else if (operation == 'multiply') {
+
+    result = x * y;
+    console.log(x + ' * ' + y + ' = ' + result);
+    return result;
+
+  } else if (operation == 'divide') {
+
+    result = x / y;
+    console.log(x + ' / ' + y + ' = ' + result);
+    return result;
+
+  }
+
+}
+
+calculate('add', 40, 2);
 
 
 /**
