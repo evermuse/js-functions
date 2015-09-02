@@ -4,15 +4,15 @@
  * @return {string} the number as a string
  */
 
- function numberToString(n){
+ function numberToString(n) {
 
-  var newString = n.toString();
+   var newString = n.toString();
 
-  return newString;
+   return newString;
 
  }
 
- numberToString(42);
+numberToString(42);
 
 
 /**
@@ -21,14 +21,14 @@
  * @return {number}
  */
 
- function increase(n){
+function increase(n) {
 
   n++;
   return n;
 
- }
+}
 
- increase(42);
+increase(42);
 
 
 /**
@@ -37,7 +37,7 @@
  * @return {number}
  */
 
-function decrease(n){
+function decrease(n) {
 
   n--;
   return n;
@@ -53,14 +53,14 @@ decrease(42);
  * @return {number} the sum
  */
 
-function add(x,y){
+function add(x,y) {
 
   var sum = x + y;
   return sum;
 
 }
 
-add(40,2);
+add(40, 2);
 
 /**
  * Subtracts the second number from the first.
@@ -69,14 +69,14 @@ add(40,2);
  * @return {number} the difference
  */
 
-function subtract(x,y){
+function subtract(x,y) {
 
   var difference = x - y;
   return difference;
 
 }
 
-subtract(44,2);
+subtract(44, 2);
 
 /**
  * Multiplies two numbers.
@@ -85,14 +85,14 @@ subtract(44,2);
  * @return {number} the product
  */
 
-function multiply(x,y){
+function multiply(x,y) {
 
   var product = x * y;
   return product;
 
 }
 
-multiply(11,4);
+multiply(11, 4);
 
 /**
  * Divides the first number by the second.
@@ -101,14 +101,14 @@ multiply(11,4);
  * @return {number} the quotient
  */
 
-function divide(x,y){
+function divide(x,y) {
 
   var quotient = x / y;
   return quotient;
 
 }
 
-divide(88,2);
+divide(88, 2);
 
 /**
  * Multiplies a number by itself.
@@ -116,7 +116,7 @@ divide(88,2);
  * @return {number} squared
  */
 
-function square(x){
+function square(x) {
 
   x *= x;
   return x;
@@ -134,7 +134,7 @@ square(7);
  * @return {number} the result
  */
 
- function calculate(operation, x, y){
+function calculate(operation, x, y) {
 
   var result;
 
@@ -176,9 +176,9 @@ calculate('add', 40, 2);
  * @return {boolean} `a` is larger than `b`
  */
 
-function isGreaterThan(a, b){
+function isGreaterThan(a, b) {
 
-  if (a > b){
+  if (a > b) {
 
     return true;
 
@@ -190,7 +190,7 @@ function isGreaterThan(a, b){
 
 }
 
-isGreaterThan(10,2);
+isGreaterThan(10, 2);
 
 
 /**
@@ -200,9 +200,9 @@ isGreaterThan(10,2);
  * @return {boolean} `a` is smaller than `b`
  */
 
-function isLessThan(a, b){
+function isLessThan(a, b) {
 
-   if (a < b){
+  if (a < b) {
 
     return true;
 
@@ -214,7 +214,7 @@ function isLessThan(a, b){
 
 }
 
-isLessThan(2,10);
+isLessThan(2, 10);
 
 /**
  * Returns true if `a` and `b` are equal.
@@ -223,7 +223,7 @@ isLessThan(2,10);
  * @return {boolean} the numbers are equal
  */
 
-function areEqual(x, y){
+function areEqual(x, y) {
 
   if (x === y) {
 
@@ -246,14 +246,14 @@ areEqual(42, 42);
  * @return {number} the smallest number
  */
 
-function minimum(x, y){
+function minimum(x, y) {
 
   var smallest = Math.min(x, y);
   return smallest;
 
 }
 
-minimum(10,2);
+minimum(10, 2);
 
 /**
  * Returns the largest value of two numbers.
@@ -262,14 +262,14 @@ minimum(10,2);
  * @return {number} the largest number
  */
 
-function maximum(x, y){
+function maximum(x, y) {
 
   var largest = Math.max(x, y);
   return largest;
 
 }
 
-maximum(10,2);
+maximum(10, 2);
 
 
 /**
@@ -278,9 +278,9 @@ maximum(10,2);
  * @return {boolean} the number is even
  */
 
-function isEven(n){
+function isEven(n) {
 
-  if (n % 2 === 0){
+  if (n % 2 === 0) {
 
     return true;
 
@@ -301,9 +301,9 @@ isEven(42);
  * @return {boolean} the number is odd
  */
 
-function isOdd(n){
+function isOdd(n) {
 
-  if (n % 2 !== 0){
+  if (n % 2 !== 0) {
 
     return true;
 
@@ -329,23 +329,23 @@ isOdd(101);
  * @return {string} the score represented as a letter grade
  */
 
-function letterGrade(score, total){
+function letterGrade(score, total) {
 
-var grade;
+  var grade;
 
-  if ((score / total) * 100 >= 90){
+  if ((score / total) * 100 >= 90) {
 
     grade = 'A';
 
-  } else if ((score / total) * 100 >= 80){
+  } else if ((score / total) * 100 >= 80) {
 
     grade = 'B';
 
-  } else if ((score / total) * 100 >= 70){
+  } else if ((score / total) * 100 >= 70) {
 
     grade = 'C';
 
-  } else if ((score / total) * 100 >= 60){
+  } else if ((score / total) * 100 >= 60) {
 
     grade = 'D';
 
@@ -359,7 +359,7 @@ var grade;
 
 }
 
-letterGrade(9,10);
+letterGrade(9, 10);
 
 
 /**
@@ -371,9 +371,9 @@ letterGrade(9,10);
  */
 
 
- function incrementReviews(restaurant){
+function incrementReviews(restaurant) {
 
-  if (restaurant.reviews){
+  if (restaurant.reviews) {
 
     restaurant.reviews++;
 
@@ -383,9 +383,9 @@ letterGrade(9,10);
 
   }
 
-return restaurant;
+  return restaurant;
 
- }
+}
 
 
 /**
@@ -395,7 +395,7 @@ return restaurant;
  * @return {string} joined the words joined with a space
  */
 
-function combine(word1, word2){
+function combine(word1, word2) {
 
   var newString = word1 + ' ' + word2;
   return newString;
@@ -413,13 +413,13 @@ combine('hello', 'world');
  * @return {object} circle
  */
 
-function createCircle(radius){
+function createCircle(radius) {
 
   var circle = {};
   circle.circumference = Math.PI * (2 * radius);
   circle.area = Math.PI * (radius * radius);
 
-return circle;
+  return circle;
 
 }
 
